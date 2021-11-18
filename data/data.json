@@ -1,0 +1,46 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "techdegree-project-1",
+            "description": "My first techdegree project",
+            "technologies": "JavaScript",
+            "live_link": "https://eric-quattropani.github.io/techdegree-project-1",
+            "github_link": "https://github.com/eric-quattropani/techdegree-project-1",
+            "image_urls": "/images/Project_1_Landscape.jpg"        
+        },
+        {
+            "id": 1,
+            "project_name": "",
+            "description": "",
+            "technologies": "Javascript",
+            "live_link": "",
+            "github_link": "",
+            "images_urls": ""
+        },
+        {
+            "id": 2,
+            "project_name": "",
+            "description": "",
+            "technologies": "Javascript",
+            "live_link": "",
+            "github_link": "",
+            "images_urls": ""        },
+        {
+            "id": 3,
+            "project_name": "",
+            "description": "",
+            "technologies": "Javascript",
+            "live_link": "",
+            "github_link": "",
+            "images_urls": ""        },
+        {
+            "id": 4,
+            "project_name": "",
+            "description": "",
+            "technologies": "Javascript",
+            "live_link": "",
+            "github_link": "",
+            "images_urls": ""        }
+    ]
+}

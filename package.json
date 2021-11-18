@@ -1,0 +1,23 @@
+{
+  "name": "project-6-take-2",
+  "version": "1.0.0",
+  "description": "Second attempt.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eric-quattropani/Project-6-Take-2.git"
+  },
+  "author": "Eric Q",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eric-quattropani/Project-6-Take-2/issues"
+  },
+  "homepage": "https://github.com/eric-quattropani/Project-6-Take-2#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  }
+}
