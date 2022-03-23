@@ -6,8 +6,8 @@ app.use(express.json());
 
 app.set('view engine', 'pug');
 
-const index = require('./routes');
-const about = require('./routes/about');
+// const index = require('./routes');
+// const about = require('./routes/about');
 
 app.use('/static', express.static('public'));
 

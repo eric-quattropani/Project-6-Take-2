@@ -8,8 +8,8 @@
             "live_link": "https://eric-quattropani.github.io/techdegree-project-1",
             "github_link": "https://github.com/eric-quattropani/techdegree-project-1",
             "image_urls": [
-                "/img/Project_1_Landscape_Small.jpg",
-                "/img/Project_1_Landscape_Large.jpg"
+                "/static/img/Project_1_Landscape_Small.jpg",
+                "/static/img/Project_1_Landscape_Large.jpg"
             ]
         },
 
