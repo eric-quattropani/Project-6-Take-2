@@ -21,6 +21,7 @@ app.get('/', (req, res, next) => {
 app.get('/about', (req, res) => {
   res.render('about');
 });
+
 /* Dynamic "project" routes */
 app.get('/projects/:id', (req, res, next) => {
   const id = req.params.id;
@@ -57,3 +58,4 @@ app.listen(3000, () => {
 
 
 // look at this: https://github.com/pattherogue/Static-Node.js-and-Express-Site/blob/main/data.json
+// need to do error handling and the technologies part
