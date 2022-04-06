@@ -4,16 +4,11 @@ const app = express();
 
 app.use(express.json());
 
+// middleware setup
 app.set('view engine', 'pug');
-
-// const index = require('./routes');
-// const about = require('./routes/about');
-
 app.use('/static', express.static('public'));
 
-//app.use('/', index);
-// app.use('/about', route);
-
+// route setup
 app.get('/', (req, res, next) => {
   res.render('index', { projects });
 });
@@ -22,7 +17,6 @@ app.get('/about', (req, res) => {
   res.render('about');
 });
 
-/* Dynamic "project" routes */
 app.get('/projects/:id', (req, res, next) => {
   const id = req.params.id;
   const project = projects[id];
@@ -44,10 +38,10 @@ app.use((req, res, next) => {
 app.use((err, req, res, next) => {
 
   if (err.status === 404) {
-    console.log('Something went wrong...')
+    console.log('Something went wrong')
     res.status(404).render('page-not-found', { err });
   } else {
-    err.message = err.message || `Something went wrong...`;
+    err.message = err.message || 'Something went wrong';
     res.status(err.status || 500).render('error', { err });
   };
 });
@@ -55,7 +49,3 @@ app.use((err, req, res, next) => {
 app.listen(3000, () => {
   console.log('listen on port 3000');
 });
-
-
-// look at this: https://github.com/pattherogue/Static-Node.js-and-Express-Site/blob/main/data.json
-// need to do error handling and the technologies part

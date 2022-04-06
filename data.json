@@ -2,9 +2,9 @@
     "projects": [
         {
             "id": 0,
-            "project_name": "techdegree-project-1",
+            "project_name": "Unit 1: A Random Quote Generator",
             "description": "My first techdegree project",
-            "technologies": ["CSS", "Github"],
+            "technologies": ["Javascript", "CSS", "HTML"],
             "live_link": "https://eric-quattropani.github.io/techdegree-project-1",
             "github_link": "https://github.com/eric-quattropani/techdegree-project-1",
             "image_urls": [
@@ -15,9 +15,9 @@
 
         {
             "id": 1,
-            "project_name": "Techdegree-project-2",
+            "project_name": "Unit 2: Data Pagination and Filtering",
             "description": "My second techdegree project - Data pagination and filtering",
-            "technologies": ["JavaScript"],
+            "technologies": ["Javascript", "CSS", "HTML"],
             "live_link": "https://eric-quattropani.github.io/Techdegree-project-2",
             "github_link": "https://github.com/eric-quattropani/Techdegree-project-2",
             "image_urls": [
@@ -28,14 +28,40 @@
 
         {
             "id": 2,
-            "project_name": "Techdegree-Project-3-Interactive-Form",
+            "project_name": "Unit 3: Interactive Form",
             "description": "Interactive Form",
-            "technologies": ["JavaScript"],
+            "technologies": ["Javascript", "CSS", "HTML"],
             "live_link": "https://eric-quattropani.github.io/Techdegree-Project-3-Interactive-Form",
             "github_link": "https://github.com/eric-quattropani/Techdegree-Project-3-Interactive-Form",
             "image_urls": [
                 "/static/img/Project_3_Landscape_Small.jpg",
                 "/static/img/Project_3_Landscape_Large.jpg"  
+            ]
+        },
+        
+        {
+            "id": 3,
+            "project_name": "Unit 4: OOP Game Show App",
+            "description": "OOP Game Show App",
+            "technologies": ["Javascript", "CSS", "HTML"],
+            "live_link": "https://eric-quattropani.github.io/Techdegree-Project-4-OOP-Game-Show-App/",
+            "github_link": "https://github.com/eric-quattropani/Techdegree-Project-4-OOP-Game-Show-App",
+            "image_urls": [
+                "/static/img/Project_4_Landscape_Small.jpg",
+                "/static/img/Project_4_Landscape_Large.jpg"  
+            ]
+        },
+        
+        {
+            "id": 4,
+            "project_name": "Unit 5: Public API Requests",
+            "description": "OOP Game Show App",
+            "technologies": ["Javascript", "CSS", "HTML"],
+            "live_link": "https://github.com/eric-quattropani/Techdegree-Project-5-Employee-Directory",
+            "github_link": "https://eric-quattropani.github.io/Techdegree-Project-5-Employee-Directory/",
+            "image_urls": [
+                "/static/img/Project_5_Landscape_Small.jpg",
+                "/static/img/Project_5_Landscape_Large.jpg"  
             ]
         }
     ]
